@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    justify-content: center;
+    flex:22%;
+    font-size: 65px;
+    color: rgb(1, 26, 27);
+    
+
+}
+
+.container{
+     width:450px;
+}
+
+
+.screen{
+    background:rgb(2,2,43);
+    padding:20px;
+    width:100%;
+    color: #ffff;
+    font-size:60px;
+    border:none;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button{
+    flex:22%;
+    font-size: 65px;
+    border: 1px solid black;
+}
+
+.btn{
+    background: orangered;
+    color:whitesmoke;
+}
+
+.btn-green{
+    background-color: green;
+}
+
+.btn-red{
+    background-color: red;
+}
